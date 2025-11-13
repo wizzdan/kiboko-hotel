@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
           <h3 className="text-2xl font-serif text-charcoal mb-4 lg:mb-3">Our Location</h3>
           <div className="aspect-w-1 aspect-h-1 md:aspect-w-4 md:aspect-h-3 lg:h-full">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63822.40058300262!2d36.604723049999995!3d-1.18561115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f26034057861b%3A0x535928670c327de5!2sLimuru!5e0!3m2!1sen!2ske!4v1672522564269!5m2!1sen!2ske"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.239328243455!2d36.63423785!3d-1.1070568499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f2419a7e6063b%3A0x11f43f075344de4e!2sLimuru%20Town!5e0!3m2!1sen!2ske!4v1717000289121!5m2!1sen!2ske"
               width="100%"
               height="100%"
               style={{ border: 0 }}

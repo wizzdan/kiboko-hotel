@@ -43,7 +43,13 @@ const Home: React.FC = () => {
       </section>
 
       {/* Services Section */}
-      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <ServiceCard 
+          img="https://picsum.photos/800/600?image=27"
+          title="Premium Rooms"
+          desc="Indulge in comfort and style in our exquisitely designed rooms."
+          link="/rooms"
+        />
         <ServiceCard 
           img="https://picsum.photos/800/600?image=225"
           title="Fine Dining"

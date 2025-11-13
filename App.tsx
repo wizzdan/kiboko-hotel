@@ -10,6 +10,7 @@ import Wellness from './pages/Wellness';
 import Business from './pages/Business';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import Rooms from './pages/Rooms';
 
 // Utility component to scroll to top on page change
 const ScrollToTop = () => {
@@ -31,6 +32,7 @@ const App: React.FC = () => {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/rooms" element={<Rooms />} />
             <Route path="/dining" element={<Dining />} />
             <Route path="/events-conferences" element={<Events />} />
             <Route path="/wellness-spa" element={<Wellness />} />
