@@ -41,7 +41,7 @@ const Home: React.FC = () => {
           className="absolute inset-0 w-full h-full object-cover"
           poster="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1920"
         >
-          <source src="https://assets.mixkit.co/videos/preview/mixkit-luxury-resort-villa-with-swimming-pool-1249-large.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dbphdr1su/video/upload/v1767509545/hotel_ad_xdsyiz.mp4" type="video/mp4" />
         </video>
         <div className="relative z-20 p-6 max-w-5xl">
           <span className="uppercase tracking-[0.5em] text-xs font-bold mb-4 block animate-fade-in">Experience Luxury in Limuru</span>
