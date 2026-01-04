@@ -11,6 +11,7 @@ import Business from './pages/Business';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Rooms from './pages/Rooms';
+import AIConcierge from './components/AIConcierge';
 
 // Utility component to scroll to top on page change
 const ScrollToTop = () => {
@@ -27,9 +28,9 @@ const App: React.FC = () => {
   return (
     <HashRouter>
       <ScrollToTop />
-      <div className="bg-ivory font-sans text-slate">
+      <div className="bg-ivory font-sans text-slate min-h-screen flex flex-col">
         <Header />
-        <main>
+        <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/rooms" element={<Rooms />} />
@@ -41,6 +42,7 @@ const App: React.FC = () => {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
+        <AIConcierge />
         <Footer />
       </div>
     </HashRouter>
